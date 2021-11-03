@@ -17,11 +17,14 @@ console.log(addedApps.join('\n'));
  
 // (Exercício 1) Identifique todas as declarações de funções neste projeto
     // Adicione um comentário identificando-as
-    
+
     // contentOfTag
     // getGitHubProject
     // elementsToArray
     // isValid
+    // addedApps
+    // isAddedAfter2018AndUpdatedAfter2019
+    // document
 
 // (Exercício 2) Identifique quais funções no projeto possuem efeitos colaterais (side-effects)
     // Adicione um comentário identificando-as
