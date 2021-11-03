@@ -29,6 +29,11 @@ console.log(addedApps.join('\n'));
 // (Exercício 2) Identifique quais funções no projeto possuem efeitos colaterais (side-effects)
     // Adicione um comentário identificando-as
 
+    // isValid
+    // addedApps
+    // document
+    // elementsToArray
+
 // (Exercício 3) Identifique quais funções são curried
     // Adicione um comentário identificando-as
 
