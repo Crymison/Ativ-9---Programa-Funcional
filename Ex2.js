@@ -55,6 +55,9 @@ const NumbertoObject = arr.map(mapToNumberObject);
 
 // ExercÃ­cio 4: use R.pipe para compor as funÃ§Ãµes: isEven, positive, isOdd, negative, 
     // isZero, e isPrime. Teste a funÃ§Ã£o composta com um Ãºnico objeto.
+    
+    let numero = 20;
+    const arr2 = [20];
 
     const allfunctioninone = R.pipe(
         isEven,
@@ -64,6 +67,9 @@ const NumbertoObject = arr.map(mapToNumberObject);
         isZero,
         isPrime
     )
-
-    console.log(allfunctioninone(arr));
+    //Não entendi pq com um arr ele funciona e sem não
+    console.log(allfunctioninone(numero));
+    console.log(allfunctioninone(20));
+    console.log(allfunctioninone(arr2));
+    
 // ExercÃ­cio 5: use a funÃ§Ã£o composta do Ex. 4 para transformar os nÃºmeros em 'arr'
